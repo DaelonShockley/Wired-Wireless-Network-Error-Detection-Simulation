@@ -46,14 +46,14 @@ def single_parity(bin): #odd parity
     return bin + parity_bit
 
 def check_2Dparity(bin): 
-    for i in range(0,7):
+    for i in range(0,8):
         result = check_parity(bin[i])
         if result:
             return result
         
     count = 0
-    for i in range(0,7):
-        for j in range(0,7):
+    for i in range(0,8):
+        for j in range(0,8):
             if bin[j][i] == "1":
                 count += 1
         if count % 2 == 0:
@@ -66,7 +66,7 @@ def add_checksum(bin):
     checksum = ""
     carry = 0
 
-    for i in range(0, 7):
+    for i in range(0, 8):
         if bin[i] == "0" and bin[i+8] == "0":
             if carry == 1: 
                 checksum += "1"
@@ -94,7 +94,7 @@ def check_checksum(bin):
 
     real_checksum = bin[16:23]
 
-    for i in range(0, 7):
+    for i in range(0, 8):
         if bin[i] == "0" and bin[i+8] == "0":
             if carry == 1: 
                 checksum += "1"
@@ -186,8 +186,7 @@ def print_error_rates(total_intro, total_detect, intro, detect):
     print(percent_array)
 
 #main method
-#generate_file(100000000)
-generate_file(1000)
+generate_file(100000000)
 
 #simulation of single parity
 for error in error_rates:
@@ -263,13 +262,13 @@ for error in error_rates:
 
             #matrix = [file.read(7), file.read(7), file.read(7), file.read(7), file.read(7), file.read(7), file.read(7)]
 
-            for i in range(0,6):
+            for i in range(0,7):
                 matrix[i] = single_parity(matrix[i])
 
             parity_byte = ""
-            for i in range(0, 7):
+            for i in range(0, 8):
                 one_count = 0
-                for j in range(0, 6):
+                for j in range(0, 7):
                     if matrix[j][i] == "1":
                         one_count += 1
                 
@@ -282,7 +281,7 @@ for error in error_rates:
 
             num_error = 0
             bit_errors = 0
-            for i in range(0, 7): #introduce error to 2D matrix
+            for i in range(0, 8): #introduce error to 2D matrix
                 matrix[i], bit_errors = introduce_error(matrix[i], error)
                 num_error += bit_errors
 
