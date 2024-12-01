@@ -14,7 +14,7 @@ wireless_avg = 2.806e-6
 one_per = 0.01
 five_per = 0.05
 ten_per = 0.1
-error_rates = [wired_tcp, wired_ipv4, wired_ipv6, wired_avg, wireless_tcp, wireless_ipv6, wireless_avg, one_per, five_per, ten_per]
+error_rates = [wired_tcp, wired_ipv4, wired_ipv6, wired_avg, wireless_tcp, wireless_ipv6, wireless_avg, one_per, five_per, ten_per] #array of error rates to be tested
 
 def generate_file(num_bits):
     if num_bits < 1:
@@ -166,13 +166,31 @@ def check_parity(bin):
     result = count % 2 == 1
     return not result  # Odd parity: valid if the total count is odd
 
+def print_error_rates(total_intro, total_detect, intro, detect):
+    if total_intro != 0:
+        total_rate = total_detect / total_intro
+    else:
+        return
 
+    print(f"Total detection rate: {total_rate * 100:.2f}%")
+
+    percent_array = ['', '', '', '', '', '', '', '']
+    for i in range(0, 8):
+        if intro[i] != 0:
+            percent = detect[i] / intro[i]
+            percent_str = f"{percent * 100:.2f}%"
+            percent_array[i] = percent_str
+        else: 
+            percent_array[i] = "N/A"
+
+    print(percent_array)
 
 #main method
-generate_file(1000000)
+#generate_file(100000000)
+generate_file(1000)
 
 #simulation of single parity
-'''for error in error_rates:
+for error in error_rates:
     total_errors_introduced = 0
     errors_introduced = [0, 0, 0, 0, 0, 0, 0, 0] #position 0 for 1 bit errors, position 1 for 2 bit errors etc
 
@@ -214,13 +232,14 @@ generate_file(1000000)
     print(errors_introduced)
     print(f"total errors detected: {total_errors_detected}")
     print(errors_detected)
-    print('')'''
+    print_error_rates(total_errors_introduced, total_errors_detected, errors_introduced, errors_detected)
+    print('')
 
 
 
 #simulation of 2D parity
 
-'''print("######Simulation of 2D parity#####")
+print("######Simulation of 2D parity#####")
 
 for error in error_rates: 
     total_errors_introduced = 0
@@ -292,10 +311,11 @@ for error in error_rates:
     print(errors_introduced)
     print(f"total errors detected: {total_errors_detected}")
     print(errors_detected)
-    print('')'''
+    print_error_rates(total_errors_introduced, total_errors_detected, errors_introduced, errors_detected)
+    print('')
             
 #Simulation of checksum
-'''print("######Simulation of Checksum######\n")
+print("######Simulation of Checksum######\n")
 for error in error_rates: 
     total_errors_introduced = 0
     errors_introduced = [0, 0, 0, 0, 0, 0, 0, 0] #position 0 for 1 bit errors, position 1 for 2 bit errors etc. Position 7 is for 8+ bit errors
@@ -339,7 +359,8 @@ for error in error_rates:
     print(errors_introduced)
     print(f"total errors detected: {total_errors_detected}")
     print(errors_detected)
-    print('')'''
+    print_error_rates(total_errors_introduced, total_errors_detected, errors_introduced, errors_detected)
+    print('')
 
 print("#####Simulation of CRC#####")
 
@@ -388,6 +409,7 @@ for error in error_rates:
     print(errors_introduced)
     print(f"total errors detected: {total_errors_detected}")
     print(errors_detected)
+    print_error_rates(total_errors_introduced, total_errors_detected, errors_introduced, errors_detected)
     print('')
 
 
