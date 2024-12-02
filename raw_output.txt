@@ -1,0 +1,324 @@
+Generated file 'data.txt' with 100000000 random bits.
+for error rate 1.364e-05 and bytes sent
+total errors: 1552
+[1552, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 1552
+[1552, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.773e-07 and 14285714 bytes sent
+total errors: 86
+[86, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 86
+[86, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.28e-08 and 14285714 bytes sent
+total errors: 6
+[6, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 6
+[6, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 4.83e-06 and 14285714 bytes sent
+total errors: 580
+[580, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 580
+[580, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 8.97e-07 and 14285714 bytes sent
+total errors: 94
+[94, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 94
+[94, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.61e-06 and 14285714 bytes sent
+total errors: 921
+[920, 1, 0, 0, 0, 0, 0, 0]
+total errors detected: 920
+[920, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 99.89%
+['100.00%', '0.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 2.806e-06 and 14285714 bytes sent
+total errors: 334
+[334, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 334
+[334, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 0.01 and 14285714 bytes sent
+total errors: 1104588
+[1066093, 37726, 759, 10, 0, 0, 0, 0]
+total errors detected: 1066852
+[1066093, 0, 759, 0, 0, 0, 0, 0]
+Total detection rate: 96.58%
+['100.00%', '0.00%', '100.00%', '0.00%', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 0.05 and 14285714 bytes sent
+total errors: 4805889
+[3988990, 734434, 77067, 5190, 202, 6, 0, 0]
+total errors detected: 4066259
+[3988990, 0, 77067, 0, 202, 0, 0, 0]
+Total detection rate: 84.61%
+['100.00%', '0.00%', '100.00%', '0.00%', '100.00%', '0.00%', 'N/A', 'N/A']
+
+for error rate 0.1 and 14285714 bytes sent
+total errors: 8132032
+[5464083, 2124473, 471403, 65890, 5827, 344, 12, 0]
+total errors detected: 5941325
+[5464083, 0, 471403, 0, 5827, 0, 12, 0]
+Total detection rate: 73.06%
+['100.00%', '0.00%', '100.00%', '0.00%', '100.00%', '0.00%', '100.00%', 'N/A']
+
+######Simulation of 2D parity#####
+for error rate 1.364e-05 and 14285712 bytes sent
+total errors: 1724
+[1724, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 1724
+[1724, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.773e-07 and 14285712 bytes sent
+total errors: 117
+[117, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 117
+[117, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.28e-08 and 14285712 bytes sent
+total errors: 8
+[8, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 8
+[8, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 4.83e-06 and 14285712 bytes sent
+total errors: 658
+[658, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 658
+[658, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 8.97e-07 and 14285712 bytes sent
+total errors: 120
+[120, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 120
+[120, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.61e-06 and 14285712 bytes sent
+total errors: 1031
+[1031, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 1031
+[1031, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 2.806e-06 and 14285712 bytes sent
+total errors: 347
+[347, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 347
+[347, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 0.01 and 14285712 bytes sent
+total errors: 968626
+[694210, 220207, 46027, 7255, 854, 67, 6, 0]
+total errors detected: 968626
+[694210, 220207, 46027, 7255, 854, 67, 6, 0]
+Total detection rate: 100.00%
+['100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', 'N/A']
+
+for error rate 0.05 and 14285712 bytes sent
+total errors: 1964278
+[258335, 426927, 465729, 373699, 234919, 122768, 53026, 28875]
+total errors detected: 1964278
+[258335, 426927, 465729, 373699, 234919, 122768, 53026, 28875]
+Total detection rate: 100.00%
+['100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%']
+
+for error rate 0.1 and 14285712 bytes sent
+total errors: 2038480
+[17151, 59918, 137256, 233314, 311484, 338179, 313164, 628014]
+total errors detected: 2038480
+[17151, 59918, 137256, 233314, 311484, 338179, 313164, 628014]
+Total detection rate: 100.00%
+['100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%']
+
+######Simulation of Checksum###### 
+
+for error rate 1.364e-05 and 43750000 bytes sent
+total errors: 2050
+[2050, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 2050
+[2050, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.773e-07 and 43750000 bytes sent
+total errors: 139
+[139, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 139
+[139, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.28e-08 and 43750000 bytes sent
+total errors: 12
+[12, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 12
+[12, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 4.83e-06 and 43750000 bytes sent
+total errors: 722
+[722, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 722
+[722, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 8.97e-07 and 43750000 bytes sent
+total errors: 145
+[145, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 145
+[145, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.61e-06 and 43750000 bytes sent
+total errors: 1136
+[1136, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 1136
+[1136, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 2.806e-06 and 43750000 bytes sent
+total errors: 437
+[437, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 437
+[437, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 0.01 and 43750000 bytes sent
+total errors: 1338255
+[1189360, 137862, 10461, 551, 21, 0, 0, 0]
+total errors detected: 1338255
+[1189360, 137862, 10461, 551, 21, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', '100.00%', '100.00%', '100.00%', '100.00%', 'N/A', 'N/A', 'N/A']
+
+for error rate 0.05 and 43750000 bytes sent
+total errors: 4426255
+[2304641, 1397400, 538112, 148624, 31373, 5323, 701, 81]
+total errors detected: 4426255
+[2304641, 1397400, 538112, 148624, 31373, 5323, 701, 81]
+Total detection rate: 100.00%
+['100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%']
+
+for error rate 0.1 and 43750000 bytes sent
+total errors: 5751107
+[1328284, 1699680, 1384184, 807118, 359297, 125925, 36123, 10496]
+total errors detected: 5751107
+[1328284, 1699680, 1384184, 807118, 359297, 125925, 36123, 10496]
+Total detection rate: 100.00%
+['100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%', '100.00%']
+
+#####Simulation of CRC#####
+for error rate 1.364e-05 and 116666662 bytes sent
+total errors: 2116
+[2116, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 2116
+[2116, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.773e-07 and 116666662 bytes sent
+total errors: 121
+[121, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 121
+[121, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.28e-08 and 116666662 bytes sent
+total errors: 10
+[10, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 10
+[10, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 4.83e-06 and 116666662 bytes sent
+total errors: 750
+[750, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 750
+[750, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 8.97e-07 and 116666662 bytes sent
+total errors: 126
+[126, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 126
+[126, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 7.61e-06 and 116666662 bytes sent
+total errors: 1166
+[1166, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 1166
+[1166, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 2.806e-06 and 116666662 bytes sent
+total errors: 386
+[386, 0, 0, 0, 0, 0, 0, 0]
+total errors detected: 386
+[386, 0, 0, 0, 0, 0, 0, 0]
+Total detection rate: 100.00%
+['100.00%', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 0.01 and 116666662 bytes sent
+total errors: 1443744
+[1386892, 55499, 1337, 16, 0, 0, 0, 0]
+total errors detected: 1440471
+[1386892, 52466, 1101, 12, 0, 0, 0, 0]
+Total detection rate: 99.77%
+['100.00%', '94.54%', '82.35%', '75.00%', 'N/A', 'N/A', 'N/A', 'N/A']
+
+for error rate 0.05 and 116666662 bytes sent
+total errors: 6161614
+[4974304, 1047629, 129025, 10113, 525, 18, 0, 0]
+total errors detected: 6080303
+[4974304, 989337, 107536, 8643, 467, 16, 0, 0]
+Total detection rate: 98.68%
+['100.00%', '94.44%', '83.35%', '85.46%', '88.95%', '88.89%', 'N/A', 'N/A']
+
+for error rate 0.1 and 116666662 bytes sent
+total errors: 10214105
+[6459764, 2871857, 744241, 123398, 13788, 1002, 54, 1]
+total errors detected: 9911191
+[6459764, 2712202, 620230, 105653, 12405, 887, 49, 1]
+Total detection rate: 97.03%
+['100.00%', '94.44%', '83.34%', '85.62%', '89.97%', '88.52%', '90.74%', '100.00%']
